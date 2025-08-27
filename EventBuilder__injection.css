@@ -54,9 +54,14 @@ h2 {
 [class*="speaker-profile-overlay"] .content p, 
 [class*="speaker-profile-overlay"] .details,
 [class*="speaker-profile-overlay"] .speaker-name,
-[class*="speaker-profile-overlay"] .bio-section {
+[class*="speaker-profile-overlay"] .bio-section,
+[class*="speaker-profile-overlay"] .mat-icon
+ {
   color: white !important;
 }
 
+.speaker-bio {
+  border-bottom-color: white !important
+}
 
 
