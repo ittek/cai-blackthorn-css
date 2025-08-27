@@ -39,6 +39,7 @@ h2 {
   color: var(--primaryColorOriginal);
 }
 
-.content p {
-  font-size: 1rem;
+.content p,
+.event-description .content > p {
+  font-size: 1rem !important;
 }
