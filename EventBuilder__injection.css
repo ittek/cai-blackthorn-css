@@ -2,9 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap");
 
 /* Event Builder Class Specific targets */
-body {
+body,
+.content {
   font-family: "Atkinson Hyperlegible", "DM Sans", sans-serif !important;
-  font-size: 17px;
+  font-size: 17px; !important
 }
 
 h1,
@@ -36,4 +37,7 @@ h2 {
 .content p {
   font-size: 1rem !important;
   line-height: 1.6 !important;
+}
+
+.title {
 }
