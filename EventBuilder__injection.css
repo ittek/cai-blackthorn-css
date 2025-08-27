@@ -45,8 +45,3 @@ h2 {
   font-size: 1rem !important;
   line-height: 1.6 !important;
 }
-
-.content[class*="_ngcontent"] p {
-  font-size: 1rem !important;
-  line-height: 1.6 !important;
-}
