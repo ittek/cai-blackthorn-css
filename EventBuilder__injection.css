@@ -58,6 +58,7 @@ h2 {
 [class*="speaker-profile-overlay"] .mat-icon
  {
   color: white !important;
+  fill: white !important
 }
 
 .speaker-bio {
