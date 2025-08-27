@@ -51,6 +51,11 @@ h2 {
 
 
 [class*="speaker-profile-overlay"] .content p, 
-[class*="speaker-profile-overlay"] div {
+[class*="speaker-profile-overlay"] .details,
+[class*="speaker-profile-overlay"] .speaker-name,
+[class*="speaker-profile-overlay"] .bio-section,
+
+ {
   color: white !important
 }
+
