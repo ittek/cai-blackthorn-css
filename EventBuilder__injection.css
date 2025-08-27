@@ -47,7 +47,7 @@ h2 {
     color-mix(in srgb, var(--um-blue) 80%, black 20%) 100%
   ) !important
   
-  .content p {
+  & .content p {
     color: white 
   }
 }
