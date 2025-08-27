@@ -43,7 +43,7 @@ h2 {
 [class*="speaker-profile-overlay"] {
   background: linear-gradient(
     126.6deg,
-    var(--umich-blue) 28.69%,
-    color-mix(in srgb, var(--umich-blue) 80%, black 20%) 100%
-  );
+    var(--um-blue) 28.69%,
+    color-mix(in srgb, var(--um-blue) 80%, black 20%) 100%
+  ) !important
 }
