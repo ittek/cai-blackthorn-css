@@ -38,3 +38,7 @@ h2 {
   font-weight: 800;
   color: var(--primaryColorOriginal);
 }
+
+.content p {
+  font-size: 1rem;
+}
