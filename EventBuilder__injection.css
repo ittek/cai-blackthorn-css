@@ -50,6 +50,7 @@ h2 {
 }
 
 
-[class*="speaker-profile-overlay"] .content p {
+[class*="speaker-profile-overlay"] .content p, 
+[class*="speaker-profile-overlay"] div {
   color: white !important
 }
