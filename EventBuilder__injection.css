@@ -8,7 +8,7 @@ body,
   font-size: 17px; !important
 }
 
-h1,
+h1, h2, h3, h4, h5, h6
 .event-name,
 .title {
   font-family: "DM Serif Display", Georgia, serif !important;
@@ -19,13 +19,6 @@ h1 {
   font-size: 2rem !important;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "DM Sans", "Arial", sans-serif !important;
-}
 
 h2 {
   font-size: 1.5rem !important;
