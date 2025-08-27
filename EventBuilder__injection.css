@@ -51,5 +51,5 @@ h2 {
 
 
 [class*="speaker-profile-overlay"] .content p {
-  color: white;
+  color: white !important
 }
