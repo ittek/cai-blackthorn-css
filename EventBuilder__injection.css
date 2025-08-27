@@ -1,11 +1,5 @@
-/* Atkinson Hyperlegible */
-@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
-/* DM Sans */
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
-
-/* DM Serif Display */
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap");
 
 /* Event Builder Class Specific targets */
 body {
@@ -15,12 +9,12 @@ body {
 
 h1,
 .event-name {
-  font-family: "DM Serif Display", Georgia, serif;
+  font-family: "DM Serif Display", Georgia, serif !important;
   letter-spacing: 0px;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2rem !important;
 }
 
 h2,
@@ -28,15 +22,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-familiy: "DM Sans", "Arial", sans;
+  font-family: "DM Sans", "Arial", sans-serif !important;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
 }
 
 .nav-item {
-  font-weight: 800;
+  font-weight: 800 !important;
 }
 
 .content p {
