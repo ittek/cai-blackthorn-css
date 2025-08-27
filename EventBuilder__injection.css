@@ -45,9 +45,9 @@ h2 {
     126.6deg,
     var(--um-blue) 28.69%,
     color-mix(in srgb, var(--um-blue) 80%, black 20%) 100%
-  ) !important
-  
+  ) !important;
+
   & .content p {
-    color: white 
+    color: white;
   }
 }
