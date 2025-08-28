@@ -115,14 +115,101 @@ h2 {
 .speaker-image {
   position: relative !important;
 }
-.speaker-image:after {
+
+/* Variation 1: (Original + rotation) */
+.speaker-image:nth-child(1):after {
   content: " ";
   background: var(--um-maize);
   position: absolute;
-  width: 240px;
-  height: 240px;
-  left: 100px;
+  width: 290px;
+  height: 280px;
+  left: -10px;
+  top: 340px;
   z-index: -1;
+  transform: skewX(5deg) skewY(10deg) rotate(-8deg);
+  clip-path: path(
+    "M240 20.471162C240 8.660876 229.38624 -0.769582 215.759392 0.130819L21.46353 11.399462C9.367175 12.495851 0 21.391508 0 32.121078V178.03318C0 187.97736 7.28121 196.687 17.000736 199.87694L211.103424 238.8092C225.157632 241.86946 240 231.134352 240 217.924436V20.471162Z"
+  );
+}
+
+/* Variation 2: (Right side higher, rotate +12°) */
+.speaker-image:nth-child(2):after {
+  content: " ";
+  background: var(--um-maize);
+  position: absolute;
+  width: 290px;
+  height: 280px;
+  left: -10px;
+  top: 340px;
+  z-index: -1;
+  transform: skewX(5deg) skewY(10deg) rotate(12deg);
+  clip-path: path(
+    "M240 8C240 0 220 -5 210 8L30 25C10 28 0 35 0 53V190C0 200 8 214 23 216L220 238C233 241 240 231 240 215V8Z"
+  );
+}
+
+/* Variation 3: (Chunk out of bottom right, rotate -16°) */
+.speaker-image:nth-child(3):after {
+  content: " ";
+  background: var(--um-maize);
+  position: absolute;
+  width: 290px;
+  height: 280px;
+  left: -10px;
+  top: 340px;
+  z-index: -1;
+  transform: skewX(5deg) skewY(10deg) rotate(-16deg);
+  clip-path: path(
+    "M240 25C240 6 233 -4 210 1L33 31C8 35 0 53 0 75V173C0 194 8 205 28 210L180 240C210 250 215 220 240 200V25Z"
+  );
+}
+
+/* Variation 4: (Smoother top, steeper left side, rotate +5°) */
+.speaker-image:nth-child(4):after {
+  content: " ";
+  background: var(--um-maize);
+  position: absolute;
+  width: 290px;
+  height: 280px;
+  left: -10px;
+  top: 340px;
+  z-index: -1;
+  transform: skewX(5deg) skewY(10deg) rotate(5deg);
+  clip-path: path(
+    "M240 30C240 16 226 -2 205 10L15 42C0 45 0 62 0 85V175C0 195 14 213 33 218L215 236C228 240 240 226 240 208V30Z"
+  );
+}
+
+/* Variation 5: (Bulge on bottom left, rotate -4°) */
+.speaker-image:nth-child(5):after {
+  content: " ";
+  background: var(--um-maize);
+  position: absolute;
+  width: 290px;
+  height: 280px;
+  left: -10px;
+  top: 340px;
+  z-index: -1;
+  transform: skewX(5deg) skewY(10deg) rotate(-4deg);
+  clip-path: path(
+    "M240 24C240 7 234 0 210 6L20 40C8 60 0 68 0 90V200C0 218 10 230 40 240L190 230C220 225 240 220 240 199V24Z"
+  );
+}
+
+/* Variation 6: (Flatter bottom, right bulge, rotate +18°) */
+.speaker-image:nth-child(6):after {
+  content: " ";
+  background: var(--um-maize);
+  position: absolute;
+  width: 290px;
+  height: 280px;
+  left: -10px;
+  top: 340px;
+  z-index: -1;
+  transform: skewX(5deg) skewY(10deg) rotate(18deg);
+  clip-path: path(
+    "M240 16C240 0 215 -7 200 13L25 45C5 65 0 80 0 110V210C0 225 20 240 80 240L215 235C238 230 240 220 240 199V16Z"
+  );
 }
 
 /* buttons */
