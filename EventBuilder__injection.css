@@ -117,14 +117,14 @@ h2 {
 }
 
 /* Variation 1: (Original + rotation) */
-.speaker-image:nth-child(1):after {
+.speaker-details:nth-child(1):after {
   content: " ";
   background: var(--um-maize);
   position: absolute;
   width: 290px;
   height: 280px;
   left: -10px;
-  top: 340px;
+
   z-index: -1;
   transform: skewX(5deg) skewY(10deg) rotate(-8deg);
   clip-path: path(
@@ -133,14 +133,14 @@ h2 {
 }
 
 /* Variation 2: (Right side higher, rotate +12°) */
-.speaker-image:nth-child(2):after {
+.speaker-details:nth-child(2):after {
   content: " ";
   background: var(--um-maize);
   position: absolute;
   width: 290px;
   height: 280px;
   left: -10px;
-  top: 340px;
+
   z-index: -1;
   transform: skewX(5deg) skewY(10deg) rotate(12deg);
   clip-path: path(
@@ -149,14 +149,14 @@ h2 {
 }
 
 /* Variation 3: (Chunk out of bottom right, rotate -16°) */
-.speaker-image:nth-child(3):after {
+.speaker-details:nth-child(3):after {
   content: " ";
   background: var(--um-maize);
   position: absolute;
   width: 290px;
   height: 280px;
   left: -10px;
-  top: 340px;
+
   z-index: -1;
   transform: skewX(5deg) skewY(10deg) rotate(-16deg);
   clip-path: path(
@@ -165,14 +165,14 @@ h2 {
 }
 
 /* Variation 4: (Smoother top, steeper left side, rotate +5°) */
-.speaker-image:nth-child(4):after {
+.speaker-details:nth-child(4):after {
   content: " ";
   background: var(--um-maize);
   position: absolute;
   width: 290px;
   height: 280px;
   left: -10px;
-  top: 340px;
+
   z-index: -1;
   transform: skewX(5deg) skewY(10deg) rotate(5deg);
   clip-path: path(
@@ -181,14 +181,14 @@ h2 {
 }
 
 /* Variation 5: (Bulge on bottom left, rotate -4°) */
-.speaker-image:nth-child(5):after {
+.speaker-details:nth-child(5):after {
   content: " ";
   background: var(--um-maize);
   position: absolute;
   width: 290px;
   height: 280px;
   left: -10px;
-  top: 340px;
+
   z-index: -1;
   transform: skewX(5deg) skewY(10deg) rotate(-4deg);
   clip-path: path(
@@ -197,32 +197,19 @@ h2 {
 }
 
 /* Variation 6: (Flatter bottom, right bulge, rotate +18°) */
-.speaker-image:nth-child(6):after {
+.speaker-details:nth-child(6):after {
   content: " ";
   background: var(--um-maize);
   position: absolute;
   width: 290px;
   height: 280px;
   left: -10px;
-  top: 340px;
+
   z-index: -1;
   transform: skewX(5deg) skewY(10deg) rotate(18deg);
   clip-path: path(
     "M240 16C240 0 215 -7 200 13L25 45C5 65 0 80 0 110V210C0 225 20 240 80 240L215 235C238 230 240 220 240 199V16Z"
   );
-}
-
-/* buttons */
-
-.button-wrapper button {
-  background-color: var(--mo-blue--link) !important;
-  color: white !important;
-
-  color: white !important;
-  fill: white !important;
-  letter-spacing: 0 !important;
-  font-weight: 900 !important;
-  font-family: "DM Sans" !important;
 }
 
 .button-wrapper .mat-icon {
