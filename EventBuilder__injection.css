@@ -31,7 +31,7 @@ h1 {
 
 
 h2 {
-  font-size: 1.5rem !important;
+  font-size: 2.125 rem !important;
 }
 
 .nav-item {
@@ -60,14 +60,25 @@ h2 {
 [class*="speaker-profile-overlay"] .details,
 [class*="speaker-profile-overlay"] .speaker-name,
 [class*="speaker-profile-overlay"] .bio-section,
-[class*="speaker-profile-overlay"] .mat-icon
+[class*="speaker-profile-overlay"] .mat-icon,
+[class*="speaker-profile-overlay"] .speaker-company-title
  {
   color: white !important;
   fill: white !important
 }
 
+[class*="speaker-profile-overlay"] .mat-icon:hover {
+  transform: scale(1.5); 
+  transition: transform 300ms ease-in-out'
+}
+
 .speaker-bio {
   border-bottom-color: white !important;
+}
+
+.speaker-title {
+  font-weight: 900 !important;
+  letter-spacing: 0.12 !important;
 }
 
 .venue {
