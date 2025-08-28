@@ -112,9 +112,15 @@ h2 {
 
 /* buttons */
 
-class[^="button-wrapper"] {
+class[^="button-wrapper"] button {
   background-color: var(--mo-blue--link) !important;
   color: white !important;
+  background-color: #193a9f;
+  color: white;
+  fill: white;
+  letter-spacing: 0;
+  font-weight: 900;
+  font-family: "DM Sans";
 }
 
 class[^="button-wrapper"] .mat-icon {
