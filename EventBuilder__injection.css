@@ -97,3 +97,11 @@ h2 {
   
 }
 
+
+/* FAQ, Mat Expansion Panels */
+
+..mat-expansion-panel + .faq-category-title {
+  margin-top: 3rem;
+}
+
+
