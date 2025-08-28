@@ -5,6 +5,7 @@
 
 :root {
   --um-blue: #00274c;
+  --um-maize: #ffcb05;
   --um-maize--50: #fffbeb;
 
   /* Bright blue/800 */
@@ -108,6 +109,18 @@ h2 {
   padding-bottom: 28px;
   max-height: 240px;
   width: 270px;
+}
+
+.speaker-image {
+  position: relative !important;
+}
+.speaker-image:after {
+  background: var(--um-maize);
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  left: 100px;
+  z-index: -1;
 }
 
 /* buttons */
