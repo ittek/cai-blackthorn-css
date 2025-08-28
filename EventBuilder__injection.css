@@ -104,11 +104,11 @@ h2 {
 }
 
 .speaker-image.custom-text {
-  font-size: 8rem;
-  font-weight: 900;
-  padding-bottom: 28px;
-  max-height: 240px;
-  width: 270px;
+  font-size: 8rem !important;
+  font-weight: 900 !important;
+  padding-bottom: 28px !important;
+  max-height: 240px !important;
+  width: 270px !important;
 }
 
 .speaker-image {
