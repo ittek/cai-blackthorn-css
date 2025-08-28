@@ -89,7 +89,8 @@ h2 {
 
 .speaker-title {
   font-weight: 900 !important;
-  letter-spacing: 0.12 !important;
+  letter-spacing: 0.1 !important;
+  font-size: 1.25rem !important;
 }
 
 .venue {
