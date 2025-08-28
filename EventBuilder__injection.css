@@ -124,7 +124,7 @@ h2 {
   width: 290px;
   height: 280px;
   left: -10px;
-  top: 340px;
+
   z-index: -1;
   transform: skewX(5deg) skewY(10deg) rotate(-8deg);
   clip-path: path(
@@ -140,7 +140,7 @@ h2 {
   width: 290px;
   height: 280px;
   left: -10px;
-  top: 340px;
+
   z-index: -1;
   transform: skewX(5deg) skewY(10deg) rotate(12deg);
   clip-path: path(
@@ -156,7 +156,7 @@ h2 {
   width: 290px;
   height: 280px;
   left: -10px;
-  top: 340px;
+
   z-index: -1;
   transform: skewX(5deg) skewY(10deg) rotate(-16deg);
   clip-path: path(
@@ -172,7 +172,7 @@ h2 {
   width: 290px;
   height: 280px;
   left: -10px;
-  top: 340px;
+
   z-index: -1;
   transform: skewX(5deg) skewY(10deg) rotate(5deg);
   clip-path: path(
@@ -188,7 +188,7 @@ h2 {
   width: 290px;
   height: 280px;
   left: -10px;
-  top: 340px;
+
   z-index: -1;
   transform: skewX(5deg) skewY(10deg) rotate(-4deg);
   clip-path: path(
@@ -204,7 +204,7 @@ h2 {
   width: 290px;
   height: 280px;
   left: -10px;
-  top: 340px;
+
   z-index: -1;
   transform: skewX(5deg) skewY(10deg) rotate(18deg);
   clip-path: path(
