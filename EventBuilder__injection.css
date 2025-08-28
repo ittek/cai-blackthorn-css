@@ -48,7 +48,7 @@ h2 {
 /* Speaker Profiles Overlay */
 
 [class*="speaker-profile-overlay"] {
-  background: var(--um-maize--50);
+  background: var(--um-maize--50) !important;
 }
 
 
