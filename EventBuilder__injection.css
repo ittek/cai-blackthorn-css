@@ -115,6 +115,7 @@ h2 {
   position: relative !important;
 }
 .speaker-image:after {
+  content: " ";
   background: var(--um-maize);
   position: absolute;
   width: 240px;
