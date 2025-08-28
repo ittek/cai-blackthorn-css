@@ -5,6 +5,7 @@
 
 :root {
   --um-blue: #00274C;
+  --um-maize--50: #FFFBEB;
 }
 
 /* Google Fonts */
@@ -47,12 +48,7 @@ h2 {
 /* Speaker Profiles Overlay */
 
 [class*="speaker-profile-overlay"] {
-  background: linear-gradient(
-    126.6deg,
-    var(--um-blue) 28.69%,
-    color-mix(in srgb, var(--um-blue) 80%, black 20%) 100%
-  ) !important;
-
+  background: var(--um-maize--50);
 }
 
 
@@ -63,8 +59,7 @@ h2 {
 [class*="speaker-profile-overlay"] .mat-icon,
 [class*="speaker-profile-overlay"] .speaker-company-title
  {
-  color: white !important;
-  fill: white !important;
+ // Change colors here
 }
 
 [class*="speaker-profile-overlay"] .mat-icon {
