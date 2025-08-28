@@ -4,9 +4,11 @@
 */
 
 :root {
-  --um-blue: #00274C;
-  --um-maize--50: #FFFBEB;
-  --mo-blue--link: #193A9F;
+  --um-blue: #00274c;
+  --um-maize--50: #fffbeb;
+
+  /* Bright blue/800 */
+  --mo-blue--link: #193a9f;
 }
 
 /* Google Fonts */
@@ -16,21 +18,24 @@
 body,
 .content {
   font-family: "Atkinson Hyperlegible", "DM Sans", sans-serif !important;
-  font-size: 17px; !important
+  font-size: 17px !important;
 }
 
-h1, h2, h3, h4, h5, h6
-.event-name,
-.title, 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 .event-name,
+.title,
 [class*="speaker-profile-overlay"] .speaker-name {
   font-family: "DM Serif Display", Georgia, serif !important;
-  letter-spacing: 0px !important
+  letter-spacing: 0px !important;
 }
 
 h1 {
   font-size: 3rem !important;
 }
-
 
 h2 {
   font-size: 2.125 rem !important;
@@ -44,8 +49,6 @@ h2 {
   color: var(--mo-blue--link) !important;
 }
 
-
-
 .nav-item {
   font-weight: 800 !important;
 }
@@ -55,30 +58,27 @@ h2 {
   line-height: 1.6 !important;
 }
 
-
 /* Speaker Profiles Overlay */
 
 [class*="speaker-profile-overlay"] {
   background: var(--um-maize--50) !important;
 }
 
-
-[class*="speaker-profile-overlay"] .content p, 
+/* [class*="speaker-profile-overlay"] .content p, 
 [class*="speaker-profile-overlay"] .details,
 [class*="speaker-profile-overlay"] .speaker-name,
 [class*="speaker-profile-overlay"] .bio-section,
 [class*="speaker-profile-overlay"] .mat-icon,
 [class*="speaker-profile-overlay"] .speaker-company-title
  {
- // Change colors here
-}
+} */
 
 [class*="speaker-profile-overlay"] .mat-icon {
   transition: 300ms ease-in-out;
 }
-  
+
 [class*="speaker-profile-overlay"] .mat-icon:hover {
-  transform: scale(1.5); 
+  transform: scale(1.5);
   transition: transform 300ms ease-in-out;
 }
 
@@ -100,7 +100,6 @@ h2 {
   font-weight: 500 !important;
   font-size: 1.5rem !important;
   line-height: 1 !important;
-  
 }
 
 .speaker-image.custom-text {
@@ -111,6 +110,16 @@ h2 {
   width: 270px;
 }
 
+/* buttons */
+
+class[^="button-wrapper"] {
+  background-color: var(--mo-blue--link) !important;
+  color: white !important;
+}
+
+class[^="button-wrapper"] .mat-icon {
+  fill: white !important;
+}
 
 /* FAQ, Mat Expansion Panels */
 
@@ -121,7 +130,3 @@ h2 {
 .mat-content {
   align-items: center;
 }
-
-
-
-
