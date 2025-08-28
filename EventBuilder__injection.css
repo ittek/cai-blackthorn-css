@@ -103,6 +103,14 @@ h2 {
   
 }
 
+.speaker-image.custom-text {
+  font-size: 8rem;
+  font-weight: 900;
+  padding-bottom: 28px;
+  max-height: 240px;
+  width: 270px;
+}
+
 
 /* FAQ, Mat Expansion Panels */
 
