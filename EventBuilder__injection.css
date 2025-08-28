@@ -216,6 +216,17 @@ h2 {
   fill: white !important;
 }
 
+.button-wrapper button {
+  background-color: var(--mo-blue--link) !important;
+  color: white !important;
+  background-color: #193a9f;
+  font-family: "DM Sans";
+}
+
+.button-wrapper .mat-icon {
+  fill: white !important;
+}
+
 /* FAQ, Mat Expansion Panels */
 
 .mat-expansion-panel + .faq-category-title {
