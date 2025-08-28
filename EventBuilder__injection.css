@@ -136,3 +136,15 @@ h2 {
 .mat-content {
   align-items: center;
 }
+
+/* Left align text rather than center */
+
+.event-where-when,
+.event-name,
+.title {
+  text-align: left !important;
+}
+
+.event-when-where {
+  align-items: flex-start !important;
+}
