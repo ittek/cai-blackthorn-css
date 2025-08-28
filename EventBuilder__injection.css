@@ -6,6 +6,7 @@
 :root {
   --um-blue: #00274C;
   --um-maize--50: #FFFBEB;
+  --mo-blue--link: #193A9F;
 }
 
 /* Google Fonts */
@@ -34,6 +35,16 @@ h1 {
 h2 {
   font-size: 2.125 rem !important;
 }
+
+/* Linkable things */
+
+.nav-item,
+.full-profile-link,
+.mat-expansion-panel-header-title h4 {
+  color: var(--mo-blue--link) !important;
+}
+
+
 
 .nav-item {
   font-weight: 800 !important;
@@ -98,5 +109,7 @@ h2 {
 ..mat-expansion-panel + .faq-category-title {
   margin-top: 3rem;
 }
+
+
 
 
