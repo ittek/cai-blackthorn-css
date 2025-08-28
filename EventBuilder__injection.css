@@ -64,12 +64,16 @@ h2 {
 [class*="speaker-profile-overlay"] .speaker-company-title
  {
   color: white !important;
-  fill: white !important
+  fill: white !important;
 }
 
+[class*="speaker-profile-overlay"] .mat-icon {
+  transition: 300ms ease-in-out;
+}
+  
 [class*="speaker-profile-overlay"] .mat-icon:hover {
   transform: scale(1.5); 
-  transition: transform 300ms ease-in-out'
+  transition: transform 300ms ease-in-out;
 }
 
 .speaker-bio {
