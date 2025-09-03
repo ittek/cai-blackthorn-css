@@ -212,7 +212,17 @@ h2 {
   );
 }
 
-/* Buttons  */
+/* 
+
+Buttons  
+
+*/
+
+.content-download-button {
+  text-align: center !important // for some reason the button text isn't centered?
+}
+
+
 
 .button-wrapper .mat-icon {
   fill: white !important;
