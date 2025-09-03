@@ -220,7 +220,8 @@ Buttons
 
 .content-download-button,
 .content-row  .content-download-button {
-  text-align: center !important // for some reason the button text isn't centered?
+  text-align: center !important
+  /* for some reason the button text isn't centered? */
 }
 
 
