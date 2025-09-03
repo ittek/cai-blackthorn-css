@@ -113,6 +113,9 @@ h2 {
   padding-bottom: 28px !important;
   max-height: 240px !important;
   width: 270px !important;
+  color: black !important;
+  line-height: 12rem !important;
+  align-items: flex-start !important;
 }
 
 .speaker-image {
