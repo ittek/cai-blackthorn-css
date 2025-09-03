@@ -156,7 +156,7 @@ h2 {
   width: 290px;
   height: 280px;
   left: 0px;
-  top: -400px;
+  top: 0px;
   z-index: -1;
   transform: skewX(5deg) skewY(10deg) scale(1.1) rotateZ(-70deg);
   clip-path: path(
