@@ -139,11 +139,6 @@ h2 {
   position: relative;
 }
 
-.speaker-details .speaker-wrapper .speaker-image {
-  clip-path: path(
-    "M240 26.26C240 11.15 229.387 -0.92 215.759 0.22L21.463 14.80C9.367 15.72 0 26.18 0 39.05V214.67C0 231.89 13.927 244.09 28.390 239.68L222.889 187.92C233.636 185.04 240 174.56 240 162.37V26.26Z"
-  );
-}
 .speaker-details:after {
   content: " ";
   background: var(--um-maize);
