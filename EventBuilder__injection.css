@@ -128,7 +128,7 @@ h2 {
 }
 
 /* VARIATION 1 */
-.speaker-details:nth-child(1) > .speaker-image:after {
+.speaker-details > .speaker-image:after {
   content: " ";
   background: var(--um-maize);
   position: absolute;
@@ -137,13 +137,13 @@ h2 {
   left: -50px;
   top: 5px;
   z-index: -1;
-  transform: skewX(356deg) skewY(9deg) rotate(97deg) scaleX(1.2) scaleY(1.3);
+  transform: scaleX(-1) translateX(117px) translateY(20px) scale(0.7);
   clip-path: path(
     "M240 20.471 C240 8.66 229.387 -0.77 215.759 0.13L21.463 11.40C9.367 12.49 0 21.39 0 32.12V178.03C0 187.98 7.281 196.69 17.001 199.88L211.103 238.81C225.158 241.87 240 231.13 240 217.92V20.471Z"
   );
 }
 
-/* VARIATION 2 */
+/* VARIATION 2 
 .speaker-details:nth-child(2) > .speaker-image:after {
   content: " ";
   background: var(--um-maize);
@@ -156,10 +156,11 @@ h2 {
   transform: skewX(5deg) skewY(10deg) rotate(12deg) scaleX(1.1) scaleY(1.2);
   clip-path: path(
     "M240 26.26C240 11.15 229.387 -0.92 215.759 0.22L21.463 14.80C9.367 15.72 0 26.18 0 39.05V214.67C0 231.89 13.927 244.09 28.390 239.68L222.889 187.92C233.636 185.04 240 174.56 240 162.37V26.26Z"
+  
   );
 }
 
-/* VARIATION 3 */
+
 .speaker-details:nth-child(3) > .speaker-image:after {
   content: " ";
   background: var(--um-maize);
@@ -175,7 +176,7 @@ h2 {
   );
 }
 
-/* VARIATION 4 */
+
 .speaker-details:nth-child(4) > .speaker-image:after {
   content: " ";
   background: var(--um-maize);
@@ -191,7 +192,7 @@ h2 {
   );
 }
 
-/* VARIATION 5 */
+
 .speaker-details:nth-child(5) > .speaker-image:after {
   content: " ";
   background: var(--um-maize);
@@ -207,7 +208,7 @@ h2 {
   );
 }
 
-/* VARIATION 6 */
+
 .speaker-details:nth-child(6) > .speaker-image:after {
   content: " ";
   background: var(--um-maize);
@@ -222,6 +223,7 @@ h2 {
     "M0.426 161.455C0.426 174.110 8.521 185.480 20.073 188.776L207.020 240.333C223.910 245.863 240 232.177 240 214.037V77.984C240 65.329 231.905 53.960 220.353 50.664L33.406 0.107C16.515 -5.423 0.426 8.263 0.426 26.404V161.455Z"
   );
 }
+*/
 
 /* 
 
