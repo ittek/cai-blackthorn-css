@@ -107,7 +107,8 @@ h2 {
   line-height: 1 !important;
 }
 
-.speaker-image.custom-text {
+.speaker-image.custom-text,
+.speakers-wrapper .speaker-image.custom-text {
   font-size: 8rem !important;
   font-weight: 900 !important;
   padding-bottom: 28px !important;
